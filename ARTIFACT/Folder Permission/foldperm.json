@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+  "title": "Folder Permission",
+  "description": "Assign Folder Permission in Windows ",
+  "tags": [
+    "Windows Server 2012 R2 ",
+    "Folder Permission",
+    "Windows"
+  ],
+  "iconUri": "https://dynamic.placementindia.com/recruiter_comp_logo/447376.png",
+  "targetOsType": "Windows",
+  "runCommand": {
+    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./folderperm.ps1')]"
+  }
+}
