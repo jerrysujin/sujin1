@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
-  "title": "Chrome",
-  "description": "Installs Chrome just kidding",
+  "title": "Folder Permission",
+  "description": "Gives folder permission to a hardcoded folder",
   "tags": [
     "Windows",
     "Chrome",
